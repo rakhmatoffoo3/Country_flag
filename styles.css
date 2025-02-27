@@ -1,0 +1,209 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: red;
+}
+
+
+#flag {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.none{
+  background: red;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+}
+
+#blue {
+  background: blue;
+  flex: 2;
+  position: relative;
+}
+
+#circle {
+  width: 150px;
+  height: 150px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -75px;
+  margin-left: -75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+
+
+/* 
+#first-div{
+  width: 600px;
+  border: 10px solid black;
+  border-radius: 20px;
+  text-align: center;
+  background-color: black;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+#first-div img{
+  width: 100%;
+}
+.mativation{
+  font-size: 32px;
+  font-weight: bold;
+  color: red;
+  margin-top: 10px;
+}
+.moti{
+  color: white;
+  font-size: 18px;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+} */
+
+
+/* .father{
+    position: relative;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    background-color: firebrick;
+    top: 200px;
+    left: 350px;
+
+}
+
+.child{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: blue;
+    top: 150px;
+    left: 250px;
+} */
+
+/* COMBINING SELECTORS  */
+
+/* body {
+    background-color: bisque;
+  }
+   */
+  /* 1 . Elementlarni gruppalarga bo'lish */
+  /* h1,
+  h2 {
+    color: purple;
+  } */
+  
+  /* ikkita class yoki id va elementlarga berish mumkin */
+  /* .box, .box2 {
+    border: 3px solid red
+  } */
+  
+  /* 2. Target only the direct child  */
+  /* .box > .done {
+    color: firebrick;
+  } */
+  /* .list > .done {
+    color: blue;
+  } */
+  
+  /* 3. Target */
+  
+  /* .list li {
+    color: blue;
+  }
+   */
+  /* 4. Chaining */
+/*   
+  li.done {
+    color: green;
+  }
+  
+  h1.title#main {
+    color: blue;
+  }
+  
+  h1#main.title {
+    color: olivedrab;
+  }
+  
+  ul p.done {
+    font-size: 10px;
+  } */
+
+
+/* #first-div{
+    background-color: rgba(5, 82, 5, 0.849);
+    padding: 20px;
+    border: 10px solid black;                         d black;
+    font-size: 20px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    text-size-adjust:var(10px);
+}
+.none{
+    background-color: rgba(212, 255, 58, 0.849);
+   
+    
+    
+    width: 150px;
+    height: 150px;
+    
+    border:20px solid black;
+    border-width: 20px 10px 20px 10px;
+    
+    margin-left: 209px;
+}
+.first{
+    background-color: rgba(255, 58, 166, 0.849);
+   
+    
+    
+    width: 150px;
+    height: 150px;
+    
+    border:10px solid black;
+ 
+    
+    margin-left: 40px;
+} */
+
+/* *{
+    text-align: center;
+}
+
+.div{
+    
+    background-color: black;
+    color: red;
+}
+#first-div{
+    border: 0px 10px 0px 10px;
+} */
